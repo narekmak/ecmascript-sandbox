@@ -13,11 +13,13 @@ By adhering to a culture of being helful to others, you will learn the foudation
 Pull requests will be merged when the following applies:
 
 1. The code has an obvious pedagogic interest and demonstrates an inherent specificity of the Javascript/ECMAScript language
-- The code for the problem belong to one files named after the the problem at stake (e.g. `var-const-let.js`. When a problem with the name you want to give already exists, add a number before the extension name as in `var-const-let-1.js`.
+- The code for the problem belong to one files named after the the problem at stake (e.g. `var_const_let.js`. When a problem with the name you want to give already exists, add a number before the extension name as in `var_const_let_1.js`. We use underscores `_` by convention.
+- Your commit messages carry meaning, contain a verb, and no subject. Like so: `Add var_let_const_3 problem`
 - The source code for your problem is organised as follows (note: replace what's between  `<` and `>` as appropriate): 
 
     ```javascript
     /**
+     * Topic: <Name the general topic you cover in this problem>
      * Problem instructions: <Give general instructions here. You can then be add more specific comments *                        within the code examples>
      * Relevant resources:
      * - <link 1>
